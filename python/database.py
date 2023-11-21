@@ -1,6 +1,6 @@
 import mysql.connector
 
-mydb = mysql.connector.connect(host="localhost", user="root", password="SEANge@SQL240103", database="MRDCENTER")
+mydb = mysql.connector.connect(host="localhost", user="root", password="", database="MRDCENTER")
 c = mydb.cursor()
 def viewTables(tableName):
     command = 'SELECT * FROM ' + tableName +';'
